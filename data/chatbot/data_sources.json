@@ -1,0 +1,246 @@
+{
+    "online_apis": {
+        "climate_data": {
+            "world_bank_climate_api": {
+                "description": "Global climate data and indicators",
+                "endpoint": "https://api.worldbank.org/v2/climate",
+                "data_types": [
+                    "Temperature trends",
+                    "Precipitation patterns",
+                    "Climate indicators",
+                    "Historical data"
+                ],
+                "update_frequency": "Monthly"
+            },
+            "pakistan_met_department": {
+                "description": "Pakistan Meteorological Department data",
+                "endpoint": "https://pmd.gov.pk/api",
+                "data_types": [
+                    "Weather forecasts",
+                    "Historical weather data",
+                    "Climate change indicators",
+                    "Extreme weather events"
+                ],
+                "update_frequency": "Daily"
+            },
+            "global_climate_data": {
+                "description": "Global climate monitoring data",
+                "endpoint": "https://climate-data.org/api",
+                "data_types": [
+                    "Temperature records",
+                    "Rainfall data",
+                    "Humidity levels",
+                    "Wind patterns"
+                ],
+                "update_frequency": "Real-time"
+            }
+        },
+        "environmental_data": {
+            "un_environment_programme": {
+                "description": "UNEP environmental indicators",
+                "endpoint": "https://unep.org/api",
+                "data_types": [
+                    "Air quality",
+                    "Water quality",
+                    "Biodiversity indicators",
+                    "Environmental degradation"
+                ],
+                "update_frequency": "Quarterly"
+            },
+            "pakistan_environment_protection": {
+                "description": "Pakistan EPA environmental data",
+                "endpoint": "https://epa.gov.pk/api",
+                "data_types": [
+                    "Air quality index",
+                    "Water quality parameters",
+                    "Industrial emissions",
+                    "Environmental compliance"
+                ],
+                "update_frequency": "Daily"
+            }
+        }
+    },
+    "sensor_networks": {
+        "weather_stations": {
+            "description": "Network of automated weather stations",
+            "locations": [
+                "Urban centers",
+                "Rural areas",
+                "Coastal regions",
+                "Agricultural zones"
+            ],
+            "measurements": [
+                "Temperature",
+                "Humidity",
+                "Wind speed",
+                "Precipitation",
+                "Air pressure"
+            ],
+            "update_frequency": "Every 15 minutes"
+        },
+        "air_quality_monitors": {
+            "description": "Air quality monitoring network",
+            "locations": [
+                "Major cities",
+                "Industrial areas",
+                "Residential zones",
+                "Educational institutions"
+            ],
+            "measurements": [
+                "PM2.5",
+                "PM10",
+                "NO2",
+                "SO2",
+                "O3",
+                "CO"
+            ],
+            "update_frequency": "Real-time"
+        },
+        "water_quality_sensors": {
+            "description": "Water quality monitoring system",
+            "locations": [
+                "Rivers",
+                "Lakes",
+                "Groundwater wells",
+                "Water treatment plants"
+            ],
+            "measurements": [
+                "pH levels",
+                "Dissolved oxygen",
+                "Turbidity",
+                "Temperature",
+                "Chemical contaminants"
+            ],
+            "update_frequency": "Hourly"
+        }
+    },
+    "research_papers": {
+        "climate_change": {
+            "sources": [
+                "IPCC reports",
+                "Pakistan Climate Change Authority",
+                "International journals",
+                "Local research institutions"
+            ],
+            "topics": [
+                "Climate change impacts",
+                "Adaptation strategies",
+                "Mitigation measures",
+                "Vulnerability assessments"
+            ],
+            "update_frequency": "Quarterly"
+        },
+        "environmental_studies": {
+            "sources": [
+                "Environmental Science journals",
+                "Local universities",
+                "Research organizations",
+                "Government reports"
+            ],
+            "topics": [
+                "Biodiversity conservation",
+                "Ecosystem services",
+                "Environmental degradation",
+                "Sustainable development"
+            ],
+            "update_frequency": "Monthly"
+        }
+    },
+    "sdg_data": {
+        "climate_action": {
+            "goal": "SDG 13",
+            "targets": [
+                "Strengthen resilience to climate-related hazards",
+                "Integrate climate change measures into policies",
+                "Improve education and awareness",
+                "Implement UNFCCC commitments"
+            ],
+            "indicators": [
+                "Number of deaths from climate-related disasters",
+                "Climate change adaptation plans",
+                "Greenhouse gas emissions",
+                "Climate change education programs"
+            ],
+            "data_sources": [
+                "UN SDG database",
+                "Pakistan SDG reports",
+                "Local implementation data",
+                "Progress monitoring systems"
+            ]
+        },
+        "clean_water": {
+            "goal": "SDG 6",
+            "targets": [
+                "Universal access to safe drinking water",
+                "Improve water quality",
+                "Increase water-use efficiency",
+                "Protect water-related ecosystems"
+            ],
+            "indicators": [
+                "Access to safe drinking water",
+                "Water quality parameters",
+                "Water-use efficiency",
+                "Water stress levels"
+            ],
+            "data_sources": [
+                "Water quality monitoring",
+                "Water supply statistics",
+                "Ecosystem health indicators",
+                "Water management reports"
+            ]
+        },
+        "sustainable_cities": {
+            "goal": "SDG 11",
+            "targets": [
+                "Safe and affordable housing",
+                "Sustainable transport systems",
+                "Reduce environmental impact",
+                "Protect cultural heritage"
+            ],
+            "indicators": [
+                "Air quality index",
+                "Public transport coverage",
+                "Waste management",
+                "Green space per capita"
+            ],
+            "data_sources": [
+                "Urban development data",
+                "Transport statistics",
+                "Environmental monitoring",
+                "Cultural heritage records"
+            ]
+        }
+    },
+    "local_documents": {
+        "government_reports": {
+            "types": [
+                "Environmental impact assessments",
+                "Climate action plans",
+                "Development projects",
+                "Policy documents"
+            ],
+            "sources": [
+                "Provincial departments",
+                "Local authorities",
+                "Development agencies",
+                "Research institutions"
+            ],
+            "update_frequency": "Annual"
+        },
+        "community_data": {
+            "types": [
+                "Local environmental initiatives",
+                "Community adaptation projects",
+                "Traditional knowledge",
+                "Local climate observations"
+            ],
+            "sources": [
+                "Community organizations",
+                "Local NGOs",
+                "Traditional knowledge holders",
+                "Citizen science projects"
+            ],
+            "update_frequency": "Continuous"
+        }
+    }
+} 

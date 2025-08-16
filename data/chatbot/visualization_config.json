@@ -1,0 +1,150 @@
+{
+    "chart_configurations": {
+        "climate_trends": {
+            "temperature": {
+                "type": "line_chart",
+                "x_axis": "Time",
+                "y_axis": "Temperature (°C)",
+                "features": [
+                    "Moving average",
+                    "Trend line",
+                    "Seasonal patterns",
+                    "Anomaly highlighting"
+                ],
+                "update_frequency": "Daily"
+            },
+            "rainfall": {
+                "type": "bar_chart",
+                "x_axis": "Month",
+                "y_axis": "Rainfall (mm)",
+                "features": [
+                    "Monthly totals",
+                    "Historical comparison",
+                    "Monsoon patterns",
+                    "Extreme events"
+                ],
+                "update_frequency": "Monthly"
+            },
+            "humidity": {
+                "type": "area_chart",
+                "x_axis": "Time",
+                "y_axis": "Humidity (%)",
+                "features": [
+                    "Daily patterns",
+                    "Seasonal trends",
+                    "Comfort zones",
+                    "Alert thresholds"
+                ],
+                "update_frequency": "Daily"
+            }
+        },
+        "air_quality": {
+            "aqi": {
+                "type": "gauge_chart",
+                "features": [
+                    "Current AQI",
+                    "Health impact levels",
+                    "Trend indicator",
+                    "Alert status"
+                ],
+                "update_frequency": "Real-time"
+            },
+            "pollutants": {
+                "type": "radar_chart",
+                "features": [
+                    "Multiple pollutants",
+                    "Health standards",
+                    "Historical comparison",
+                    "Risk assessment"
+                ],
+                "update_frequency": "Hourly"
+            }
+        },
+        "water_quality": {
+            "parameters": {
+                "type": "heat_map",
+                "features": [
+                    "Multiple parameters",
+                    "Quality zones",
+                    "Trend analysis",
+                    "Alert indicators"
+                ],
+                "update_frequency": "Daily"
+            },
+            "trends": {
+                "type": "multi_line_chart",
+                "features": [
+                    "Parameter trends",
+                    "Quality standards",
+                    "Seasonal patterns",
+                    "Anomaly detection"
+                ],
+                "update_frequency": "Weekly"
+            }
+        }
+    },
+    "map_visualizations": {
+        "district_overview": {
+            "type": "interactive_map",
+            "layers": [
+                "District boundaries",
+                "Climate zones",
+                "Risk areas",
+                "Monitoring stations"
+            ],
+            "features": [
+                "Zoom levels",
+                "Layer toggling",
+                "Data popups",
+                "Measurement tools"
+            ]
+        },
+        "risk_assessment": {
+            "type": "heat_map",
+            "layers": [
+                "Flood risk",
+                "Drought risk",
+                "Air quality risk",
+                "Water quality risk"
+            ],
+            "features": [
+                "Risk levels",
+                "Population density",
+                "Vulnerable areas",
+                "Mitigation measures"
+            ]
+        }
+    },
+    "dashboard_layouts": {
+        "climate_monitoring": {
+            "sections": [
+                "Current conditions",
+                "Trend analysis",
+                "Forecast",
+                "Alerts"
+            ],
+            "refresh_rate": "5 minutes",
+            "export_options": [
+                "PDF",
+                "Excel",
+                "CSV",
+                "Image"
+            ]
+        },
+        "sdg_tracking": {
+            "sections": [
+                "Goal progress",
+                "Target status",
+                "Indicator trends",
+                "Implementation status"
+            ],
+            "refresh_rate": "Daily",
+            "export_options": [
+                "PDF",
+                "Excel",
+                "CSV",
+                "Image"
+            ]
+        }
+    }
+} 

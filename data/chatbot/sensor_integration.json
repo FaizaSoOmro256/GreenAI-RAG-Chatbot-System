@@ -1,0 +1,123 @@
+{
+    "sensor_configurations": {
+        "weather_stations": {
+            "api_endpoints": {
+                "temperature": "https://api.weather.sindh.gov.pk/temperature",
+                "humidity": "https://api.weather.sindh.gov.pk/humidity",
+                "rainfall": "https://api.weather.sindh.gov.pk/rainfall",
+                "wind": "https://api.weather.sindh.gov.pk/wind"
+            },
+            "data_refresh_rate": "15 minutes",
+            "alert_thresholds": {
+                "temperature": {
+                    "high": "40°C",
+                    "low": "10°C",
+                    "critical": "45°C"
+                },
+                "rainfall": {
+                    "heavy": "50mm/hour",
+                    "flood_risk": "100mm/hour"
+                },
+                "wind": {
+                    "strong": "30 km/h",
+                    "storm": "50 km/h"
+                }
+            }
+        },
+        "air_quality": {
+            "api_endpoints": {
+                "pm25": "https://api.air.sindh.gov.pk/pm25",
+                "pm10": "https://api.air.sindh.gov.pk/pm10",
+                "aqi": "https://api.air.sindh.gov.pk/aqi"
+            },
+            "data_refresh_rate": "5 minutes",
+            "alert_thresholds": {
+                "pm25": {
+                    "moderate": "35 µg/m³",
+                    "unhealthy": "55 µg/m³",
+                    "hazardous": "150 µg/m³"
+                },
+                "aqi": {
+                    "moderate": "100",
+                    "unhealthy": "150",
+                    "hazardous": "300"
+                }
+            }
+        },
+        "water_quality": {
+            "api_endpoints": {
+                "ph": "https://api.water.sindh.gov.pk/ph",
+                "turbidity": "https://api.water.sindh.gov.pk/turbidity",
+                "contaminants": "https://api.water.sindh.gov.pk/contaminants"
+            },
+            "data_refresh_rate": "1 hour",
+            "alert_thresholds": {
+                "ph": {
+                    "min": "6.5",
+                    "max": "8.5",
+                    "critical": "5.0 or 9.0"
+                },
+                "turbidity": {
+                    "acceptable": "5 NTU",
+                    "high": "10 NTU",
+                    "critical": "20 NTU"
+                }
+            }
+        }
+    },
+    "notification_settings": {
+        "alert_channels": [
+            "SMS",
+            "Email",
+            "Push Notifications",
+            "WhatsApp"
+        ],
+        "alert_priorities": {
+            "high": {
+                "channels": ["SMS", "WhatsApp", "Email"],
+                "response_time": "Immediate"
+            },
+            "medium": {
+                "channels": ["WhatsApp", "Email"],
+                "response_time": "Within 1 hour"
+            },
+            "low": {
+                "channels": ["Email"],
+                "response_time": "Within 24 hours"
+            }
+        }
+    },
+    "data_analysis": {
+        "trend_analysis": {
+            "time_periods": [
+                "24 hours",
+                "7 days",
+                "30 days",
+                "1 year"
+            ],
+            "metrics": [
+                "Average values",
+                "Peak values",
+                "Trend direction",
+                "Anomaly detection"
+            ]
+        },
+        "predictive_models": {
+            "weather": {
+                "forecast_period": "7 days",
+                "confidence_threshold": "80%",
+                "update_frequency": "Daily"
+            },
+            "air_quality": {
+                "forecast_period": "3 days",
+                "confidence_threshold": "75%",
+                "update_frequency": "Daily"
+            },
+            "water_quality": {
+                "forecast_period": "5 days",
+                "confidence_threshold": "70%",
+                "update_frequency": "Weekly"
+            }
+        }
+    }
+} 

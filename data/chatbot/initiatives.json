@@ -1,0 +1,66 @@
+{
+    "community_initiatives": {
+        "general": [
+            "Green Schools Program - Environmental education in 50 schools",
+            "Community Clean-up Drives - Monthly events across districts",
+            "Tree Plantation Campaign - Target: 100,000 trees by 2025",
+            "Water Conservation Awareness - Reaching 100,000 households",
+            "Waste Management Training - 25 communities trained",
+            "Solar Energy Adoption - 500 households converted",
+            "Climate Action Youth Network - 1000+ members",
+            "Women's Green Enterprise Program - 200 beneficiaries"
+        ],
+        "thatta": [
+            "Coastal Community Watch - Monitoring marine ecosystem",
+            "Mangrove Guardians - Local conservation groups",
+            "Fishermen's Sustainable Practices Initiative",
+            "Coastal Clean-up Network",
+            "Marine Life Protection Program",
+            "Community-based Tourism Development",
+            "Women's Coastal Resource Management",
+            "Youth Environmental Leadership Program"
+        ],
+        "tharparkar": [
+            "Water Conservation Committees",
+            "Traditional Knowledge Preservation",
+            "Drought-resistant Agriculture Groups",
+            "Community Water Management Systems",
+            "Solar Energy Adoption Program",
+            "Livestock Management Initiative",
+            "Desert Greening Project",
+            "Indigenous Plant Conservation"
+        ]
+    },
+    "future_plans": {
+        "general": [
+            "Climate Action Plan 2025 - Reduce emissions by 30%",
+            "Water Security Strategy - Improve access by 50%",
+            "Biodiversity Conservation Program - Protect 25% more areas",
+            "Renewable Energy Transition - 40% clean energy by 2030",
+            "Waste Management Revolution - 80% recycling target",
+            "Green Infrastructure Development - 100 new projects",
+            "Environmental Education Expansion - Reach 1 million students",
+            "Community Resilience Building - 500 villages covered"
+        ],
+        "thatta": [
+            "Coastal Protection Master Plan 2025",
+            "Mangrove Restoration Target - 5000 hectares",
+            "Marine Protected Areas Expansion",
+            "Sustainable Fisheries Development",
+            "Coastal Tourism Management Plan",
+            "Climate-resilient Infrastructure",
+            "Community-based Adaptation Program",
+            "Marine Ecosystem Monitoring System"
+        ],
+        "tharparkar": [
+            "Water Security Plan 2025",
+            "Desertification Control Program",
+            "Sustainable Agriculture Development",
+            "Renewable Energy Expansion",
+            "Traditional Water Systems Revival",
+            "Community Resilience Building",
+            "Biodiversity Conservation Strategy",
+            "Climate Adaptation Framework"
+        ]
+    }
+} 

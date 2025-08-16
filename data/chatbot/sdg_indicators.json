@@ -1,0 +1,216 @@
+{
+    "sdg_13_climate_action": {
+        "targets": {
+            "13.1": {
+                "description": "Strengthen resilience and adaptive capacity to climate-related hazards",
+                "indicators": {
+                    "13.1.1": {
+                        "name": "Number of deaths and missing persons attributed to disasters",
+                        "data_source": "National Disaster Management Authority",
+                        "update_frequency": "Annual",
+                        "latest_value": "2022 data",
+                        "trend": "Decreasing"
+                    },
+                    "13.1.2": {
+                        "name": "Number of countries with national and local disaster risk reduction strategies",
+                        "data_source": "Ministry of Climate Change",
+                        "update_frequency": "Biennial",
+                        "latest_value": "Implemented",
+                        "status": "Active"
+                    }
+                }
+            },
+            "13.2": {
+                "description": "Integrate climate change measures into national policies",
+                "indicators": {
+                    "13.2.1": {
+                        "name": "Number of countries with NDCs, long-term strategies, and adaptation communications",
+                        "data_source": "UNFCCC",
+                        "update_frequency": "Annual",
+                        "latest_value": "Updated 2023",
+                        "status": "Compliant"
+                    }
+                }
+            },
+            "13.3": {
+                "description": "Improve education and awareness on climate change",
+                "indicators": {
+                    "13.3.1": {
+                        "name": "Extent to which climate change is integrated into education",
+                        "data_source": "Ministry of Education",
+                        "update_frequency": "Annual",
+                        "latest_value": "Curriculum updated",
+                        "coverage": "80% of schools"
+                    },
+                    "13.3.2": {
+                        "name": "Number of people trained in climate change adaptation",
+                        "data_source": "Climate Change Authority",
+                        "update_frequency": "Quarterly",
+                        "latest_value": "10,000 trained",
+                        "target": "50,000 by 2025"
+                    }
+                }
+            }
+        },
+        "local_implementation": {
+            "sindh_climate_action_plan": {
+                "objectives": [
+                    "Reduce greenhouse gas emissions",
+                    "Enhance climate resilience",
+                    "Promote renewable energy",
+                    "Protect vulnerable communities"
+                ],
+                "progress_indicators": {
+                    "emissions_reduction": {
+                        "target": "30% by 2030",
+                        "current": "15% reduction",
+                        "status": "On track"
+                    },
+                    "renewable_energy": {
+                        "target": "40% by 2030",
+                        "current": "20% share",
+                        "status": "Progressing"
+                    }
+                }
+            }
+        }
+    },
+    "sdg_6_clean_water": {
+        "targets": {
+            "6.1": {
+                "description": "Achieve universal access to safe drinking water",
+                "indicators": {
+                    "6.1.1": {
+                        "name": "Proportion of population using safely managed drinking water services",
+                        "data_source": "Water and Sanitation Agency",
+                        "update_frequency": "Annual",
+                        "latest_value": "75% coverage",
+                        "target": "100% by 2030"
+                    }
+                }
+            },
+            "6.2": {
+                "description": "Achieve access to adequate sanitation",
+                "indicators": {
+                    "6.2.1": {
+                        "name": "Proportion of population using safely managed sanitation services",
+                        "data_source": "Public Health Department",
+                        "update_frequency": "Annual",
+                        "latest_value": "65% coverage",
+                        "target": "100% by 2030"
+                    }
+                }
+            },
+            "6.3": {
+                "description": "Improve water quality",
+                "indicators": {
+                    "6.3.1": {
+                        "name": "Proportion of wastewater safely treated",
+                        "data_source": "Environmental Protection Agency",
+                        "update_frequency": "Quarterly",
+                        "latest_value": "40% treated",
+                        "target": "80% by 2030"
+                    },
+                    "6.3.2": {
+                        "name": "Proportion of water bodies with good ambient water quality",
+                        "data_source": "Water Quality Monitoring",
+                        "update_frequency": "Monthly",
+                        "latest_value": "60% good quality",
+                        "target": "90% by 2030"
+                    }
+                }
+            }
+        },
+        "local_implementation": {
+            "sindh_water_security": {
+                "objectives": [
+                    "Improve water infrastructure",
+                    "Enhance water quality",
+                    "Promote water conservation",
+                    "Protect water resources"
+                ],
+                "progress_indicators": {
+                    "water_access": {
+                        "target": "90% by 2025",
+                        "current": "75% coverage",
+                        "status": "Progressing"
+                    },
+                    "water_quality": {
+                        "target": "85% good quality",
+                        "current": "60% good quality",
+                        "status": "Needs improvement"
+                    }
+                }
+            }
+        }
+    },
+    "sdg_11_sustainable_cities": {
+        "targets": {
+            "11.1": {
+                "description": "Ensure access to adequate housing",
+                "indicators": {
+                    "11.1.1": {
+                        "name": "Proportion of urban population living in slums",
+                        "data_source": "Urban Development Authority",
+                        "update_frequency": "Annual",
+                        "latest_value": "30% in slums",
+                        "target": "Reduce by 50% by 2030"
+                    }
+                }
+            },
+            "11.2": {
+                "description": "Provide access to sustainable transport",
+                "indicators": {
+                    "11.2.1": {
+                        "name": "Proportion of population with convenient access to public transport",
+                        "data_source": "Transport Department",
+                        "update_frequency": "Annual",
+                        "latest_value": "60% access",
+                        "target": "90% by 2030"
+                    }
+                }
+            },
+            "11.6": {
+                "description": "Reduce environmental impact of cities",
+                "indicators": {
+                    "11.6.1": {
+                        "name": "Proportion of urban solid waste regularly collected",
+                        "data_source": "Municipal Corporation",
+                        "update_frequency": "Monthly",
+                        "latest_value": "70% collected",
+                        "target": "100% by 2030"
+                    },
+                    "11.6.2": {
+                        "name": "Annual mean levels of fine particulate matter",
+                        "data_source": "Air Quality Monitoring",
+                        "update_frequency": "Real-time",
+                        "latest_value": "45 µg/m³",
+                        "target": "20 µg/m³ by 2030"
+                    }
+                }
+            }
+        },
+        "local_implementation": {
+            "sindh_urban_development": {
+                "objectives": [
+                    "Improve urban infrastructure",
+                    "Enhance public transport",
+                    "Reduce pollution",
+                    "Increase green spaces"
+                ],
+                "progress_indicators": {
+                    "public_transport": {
+                        "target": "80% coverage",
+                        "current": "60% coverage",
+                        "status": "Progressing"
+                    },
+                    "air_quality": {
+                        "target": "30 µg/m³",
+                        "current": "45 µg/m³",
+                        "status": "Needs improvement"
+                    }
+                }
+            }
+        }
+    }
+}

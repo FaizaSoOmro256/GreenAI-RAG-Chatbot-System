@@ -1,0 +1,172 @@
+{
+    "project_info": {
+        "name": "GreenAI-RAG Chatbot",
+        "type": "Final Year Project",
+        "academic_year": "2023-2024",
+        "department": "Computer Science",
+        "university": "University of Sufism and Modern Sciences, Bhitshah",
+        "supervisor": "Madam Zojan Memon",
+        "description": "An AI-powered chatbot system for climate and environmental data analysis in Sindh, Pakistan. The system integrates real-time sensor data, machine learning models, and comprehensive climate information to provide intelligent responses about environmental conditions, climate risks, and adaptation measures.",
+        "university_details": {
+            "location": "Bhitshah, Sindh, Pakistan",
+            "focus_areas": [
+                "Modern Sciences",
+                "Sufism",
+                "Research",
+                "Technology"
+            ],
+            "project_context": "This project aligns with the university's commitment to combining modern technology with traditional wisdom, focusing on environmental sustainability and community service."
+        }
+    },
+    "team_members": {
+        "team_lead": {
+            "name": "Faiza Soomro",
+            "role": "Team Lead & Full Stack Developer",
+            "responsibilities": [
+                "Project architecture design",
+                "Machine learning model integration",
+                "API development and integration",
+                "Data analysis and visualization",
+                "System testing and deployment"
+            ],
+            "expertise": [
+                "Python",
+                "Machine Learning",
+                "Web Development",
+                "Data Analysis",
+                "API Development"
+            ],
+            "contribution": "Led the development of the core chatbot system, implemented machine learning models for climate prediction, and designed the data visualization components."
+        },
+        "team_member_1": {
+            "name": "Sahrish",
+            "role": "Backend Developer & Data Engineer",
+            "responsibilities": [
+                "Database design and management",
+                "Data pipeline development",
+                "API integration",
+                "System testing"
+            ],
+            "expertise": [
+                "Python",
+                "Database Management",
+                "Data Engineering",
+                "API Development"
+            ],
+            "contribution": "Developed the data processing pipelines, implemented database solutions, and integrated various data sources into the system."
+        },
+        "team_member_2": {
+            "name": "Damini",
+            "role": "Frontend Developer & UI/UX Designer",
+            "responsibilities": [
+                "User interface design",
+                "Frontend development",
+                "User experience optimization",
+                "System testing"
+            ],
+            "expertise": [
+                "JavaScript",
+                "React",
+                "UI/UX Design",
+                "Web Development"
+            ],
+            "contribution": "Designed and implemented the user interface, created interactive visualizations, and optimized the user experience."
+        }
+    },
+    "development_timeline": {
+        "phase_1": {
+            "name": "Project Planning and Research",
+            "duration": "2 months",
+            "activities": [
+                "Requirements gathering",
+                "Literature review",
+                "Technology stack selection",
+                "Project planning"
+            ]
+        },
+        "phase_2": {
+            "name": "Core Development",
+            "duration": "4 months",
+            "activities": [
+                "System architecture implementation",
+                "Database setup",
+                "API development",
+                "Basic chatbot functionality"
+            ]
+        },
+        "phase_3": {
+            "name": "Advanced Features",
+            "duration": "3 months",
+            "activities": [
+                "Machine learning model integration",
+                "Data visualization implementation",
+                "Real-time data processing",
+                "Advanced chatbot features"
+            ]
+        },
+        "phase_4": {
+            "name": "Testing and Deployment",
+            "duration": "1 month",
+            "activities": [
+                "System testing",
+                "Performance optimization",
+                "Documentation",
+                "Deployment"
+            ]
+        }
+    },
+    "technical_stack": {
+        "frontend": [
+            "React.js",
+            "Material-UI",
+            "Chart.js",
+            "Leaflet Maps"
+        ],
+        "backend": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Redis"
+        ],
+        "machine_learning": [
+            "TensorFlow",
+            "Scikit-learn",
+            "PyTorch",
+            "Hugging Face Transformers"
+        ],
+        "devops": [
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "AWS"
+        ]
+    },
+    "project_goals": {
+        "primary": [
+            "Develop an intelligent chatbot for climate data analysis",
+            "Implement real-time data processing and visualization",
+            "Create accurate climate prediction models",
+            "Provide comprehensive environmental information"
+        ],
+        "secondary": [
+            "Enhance public awareness about climate change",
+            "Support decision-making for environmental management",
+            "Facilitate research in climate studies",
+            "Contribute to sustainable development goals"
+        ]
+    },
+    "future_scope": {
+        "planned_features": [
+            "Mobile application development",
+            "Advanced predictive analytics",
+            "Integration with more data sources",
+            "Enhanced user personalization"
+        ],
+        "potential_improvements": [
+            "Multi-language support expansion",
+            "Advanced machine learning models",
+            "Real-time collaboration features",
+            "Extended API integrations"
+        ]
+    }
+} 

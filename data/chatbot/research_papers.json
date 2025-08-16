@@ -1,0 +1,141 @@
+{
+    "climate_change": {
+        "recent_publications": [
+            {
+                "title": "Climate Change Impacts on Sindh's Agriculture",
+                "authors": ["Dr. Ahmed Khan", "Dr. Fatima Ali"],
+                "year": 2023,
+                "institution": "Sindh Agriculture University",
+                "key_findings": [
+                    "Temperature increase affecting crop yields",
+                    "Changing rainfall patterns",
+                    "Water scarcity challenges",
+                    "Adaptation strategies"
+                ],
+                "url": "https://research.sau.edu.pk/climate-agriculture-2023"
+            },
+            {
+                "title": "Coastal Vulnerability Assessment of Thatta",
+                "authors": ["Dr. Muhammad Hassan", "Dr. Sara Khan"],
+                "year": 2023,
+                "institution": "Karachi University",
+                "key_findings": [
+                    "Sea level rise impacts",
+                    "Coastal erosion rates",
+                    "Community vulnerability",
+                    "Adaptation measures"
+                ],
+                "url": "https://research.ku.edu.pk/coastal-thatta-2023"
+            }
+        ],
+        "ipcc_reports": [
+            {
+                "title": "IPCC Sixth Assessment Report",
+                "year": 2022,
+                "key_topics": [
+                    "Global warming trends",
+                    "Climate change impacts",
+                    "Adaptation strategies",
+                    "Mitigation measures"
+                ],
+                "url": "https://www.ipcc.ch/assessment-report/ar6/"
+            }
+        ]
+    },
+    "environmental_studies": {
+        "biodiversity": [
+            {
+                "title": "Biodiversity Conservation in Tharparkar",
+                "authors": ["Dr. Zainab Malik", "Dr. Usman Khan"],
+                "year": 2023,
+                "institution": "WWF Pakistan",
+                "key_findings": [
+                    "Endangered species status",
+                    "Habitat conservation",
+                    "Community involvement",
+                    "Conservation strategies"
+                ],
+                "url": "https://research.wwf.org.pk/tharparkar-biodiversity-2023"
+            }
+        ],
+        "water_resources": [
+            {
+                "title": "Water Security in Sindh",
+                "authors": ["Dr. Ali Raza", "Dr. Hina Shah"],
+                "year": 2023,
+                "institution": "Sindh Water Commission",
+                "key_findings": [
+                    "Water availability trends",
+                    "Quality assessment",
+                    "Management challenges",
+                    "Policy recommendations"
+                ],
+                "url": "https://research.swc.gov.pk/water-security-2023"
+            }
+        ]
+    },
+    "sustainable_development": {
+        "urban_planning": [
+            {
+                "title": "Sustainable Urban Development in Karachi",
+                "authors": ["Dr. Farah Khan", "Dr. Imran Ali"],
+                "year": 2023,
+                "institution": "Karachi Development Authority",
+                "key_findings": [
+                    "Urban growth patterns",
+                    "Environmental challenges",
+                    "Infrastructure needs",
+                    "Sustainable solutions"
+                ],
+                "url": "https://research.kda.gov.pk/urban-development-2023"
+            }
+        ],
+        "renewable_energy": [
+            {
+                "title": "Renewable Energy Potential in Sindh",
+                "authors": ["Dr. Sana Malik", "Dr. Omar Khan"],
+                "year": 2023,
+                "institution": "Sindh Energy Department",
+                "key_findings": [
+                    "Solar energy potential",
+                    "Wind power capacity",
+                    "Implementation challenges",
+                    "Policy framework"
+                ],
+                "url": "https://research.energy.sindh.gov.pk/renewable-2023"
+            }
+        ]
+    },
+    "local_research": {
+        "community_studies": [
+            {
+                "title": "Community Adaptation to Climate Change",
+                "authors": ["Dr. Nida Khan", "Dr. Asif Ali"],
+                "year": 2023,
+                "institution": "Local Development Organization",
+                "key_findings": [
+                    "Traditional adaptation methods",
+                    "Community resilience",
+                    "Local knowledge systems",
+                    "Capacity building needs"
+                ],
+                "url": "https://research.ldo.org.pk/community-adaptation-2023"
+            }
+        ],
+        "agricultural_research": [
+            {
+                "title": "Climate-Smart Agriculture in Sindh",
+                "authors": ["Dr. Bilal Khan", "Dr. Ayesha Malik"],
+                "year": 2023,
+                "institution": "Sindh Agriculture Research Center",
+                "key_findings": [
+                    "Crop adaptation strategies",
+                    "Water-efficient farming",
+                    "Soil conservation",
+                    "Technology adoption"
+                ],
+                "url": "https://research.sarc.gov.pk/climate-smart-agri-2023"
+            }
+        ]
+    }
+} 

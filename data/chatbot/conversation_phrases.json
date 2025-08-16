@@ -1,0 +1,51 @@
+{
+    "greetings": [
+        "Hello! I'm your climate assistant. How can I help you today?",
+        "Hi there! I'm here to help with climate information. What would you like to know?",
+        "Greetings! I'm your GreenAI assistant. What climate information can I provide?",
+        "Welcome! I'm here to help you understand climate issues. What's on your mind?"
+    ],
+    "follow_up_questions": {
+        "general": [
+            "Would you like to know more about this?",
+            "Is there anything specific about this that interests you?",
+            "Would you like me to elaborate on any of these points?",
+            "Should I provide more details about any particular aspect?"
+        ],
+        "district": [
+            "Would you like to know how this affects local communities?",
+            "Should I tell you about ongoing efforts to address these issues?",
+            "Would you like to know about community initiatives in this area?",
+            "Should I explain how these challenges are being managed?"
+        ],
+        "initiatives": [
+            "Would you like to know how you can get involved?",
+            "Should I tell you about the impact of these initiatives?",
+            "Would you like to hear some success stories?",
+            "Should I explain how these programs benefit the community?"
+        ]
+    },
+    "transition_phrases": [
+        "Let me tell you about",
+        "I'd like to share",
+        "Here's what I know about",
+        "Let me explain",
+        "I can tell you about"
+    ],
+    "context_transitions": {
+        "follow_up": [
+            "Speaking of which,",
+            "That reminds me,",
+            "In connection with that,",
+            "Related to this,",
+            "Building on that,"
+        ],
+        "new_topic": [
+            "Now, about",
+            "Moving on to",
+            "Let's talk about",
+            "I'd also like to mention",
+            "Another important aspect is"
+        ]
+    }
+} 
