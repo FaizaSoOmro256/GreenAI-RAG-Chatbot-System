@@ -1,0 +1,8 @@
+# System dependencies for Streamlit Cloud
+build-essential
+python3-dev
+gcc
+g++
+libopenblas-dev
+liblapack-dev
+libatlas-base-dev
