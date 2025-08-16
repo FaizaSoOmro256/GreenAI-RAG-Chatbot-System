@@ -1,3 +1,0 @@
-# System dependencies for Python packages
-libmagic1
-libmagic-dev 
