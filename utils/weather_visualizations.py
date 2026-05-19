@@ -15,6 +15,7 @@ from utils.forecast import get_forecast_data
 from utils.coordinates import SINDH_COORDINATES
 from utils.water_resources import WATER_AVAILABILITY, WATER_PROJECTIONS, get_water_stress_category
 import os
+from config import OPENWEATHERMAP_API_KEY
 
 # Weather icon mapping for visualization
 WEATHER_ICONS = {
@@ -357,7 +358,7 @@ def render_enhanced_weather_dashboard():
     st.write("Explore real-time weather data across Sindh with interactive visualizations")
     
     # Check for API key configuration
-    if not os.getenv("OPENWEATHERMAP_API_KEY"):
+    if not OPENWEATHERMAP_API_KEY:
         st.error("""
         ⚠️ OpenWeather API key is not configured!
         
