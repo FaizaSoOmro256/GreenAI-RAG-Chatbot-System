@@ -20,8 +20,9 @@ from data.district_data import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (only if .env file exists, to avoid overriding Streamlit Cloud secrets)
+if os.path.exists('.env'):
+    load_dotenv()
 
 class ClimateDataIntegrator:
     """Integrates climate data from various sources."""

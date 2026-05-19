@@ -9,8 +9,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 from utils.weather_api import location_map
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (only if .env file exists, to avoid overriding Streamlit Cloud secrets)
+if os.path.exists('.env'):
+    load_dotenv()
 
 # Get API key from environment variables
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")

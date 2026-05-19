@@ -15,8 +15,9 @@ from typing import Dict, Optional
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (only if .env file exists, to avoid overriding Streamlit Cloud secrets)
+if os.path.exists('.env'):
+    load_dotenv()
 
 # Get API key from environment variable
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")

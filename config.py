@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (only if .env file exists, to avoid overriding Streamlit Cloud secrets)
+if os.path.exists('.env'):
+    load_dotenv()
 
 # API Keys and credentials
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
