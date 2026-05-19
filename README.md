@@ -1,8 +1,27 @@
-# GreenAI: Multilingual RAG Chatbot for Sindh's Sustainable Climate Actions
+# Ecosphere AI: Ultra-Premium Multilingual RAG Chatbot for Sindh's Sustainable Climate Actions
 
-A web-based intelligent chatbot that provides information about sustainable climate actions in Sindh using Retrieval Augmented Generation (RAG) technology. The application supports multiple languages including English, Urdu, and Sindhi.
+> [!IMPORTANT]
+> **Streamlit Cloud Status**: Ecosphere AI is fully optimized, compatible, and actively live on **Streamlit Cloud**! 
+>
+> 🚀 **Live URL**: [https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/](https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/)
+>
+> [![Streamlit App](https://static.streamlit.io/badge-gradient.svg)](https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/)
 
-## Features
+
+
+## Re-Engineered Premium React SPA Frontend
+
+The frontend has been completely re-engineered from the ground up as an **ultra-premium, 3D animated React Single-Page Application (SPA)** that runs full-screen, completely bypassing and masking the default Streamlit container layouts.
+
+### Key Redesign Highlights:
+- **Aesthetic Glassmorphism & Neon Shadows**: Transparent glass surfaces with HSL gradient overlays, tactile floating panels, and smooth hover micro-reflections.
+- **Ambient Interactive Particle Mesh**: A custom HTML5 canvas particle physics background that responds to user theme selections (Emerald Green in Dark Mode, Royal Blue in Light Mode).
+- **FastAPI Backend API Bridge**: Exposes existing Gemini Flash 2.0 RAG chains (`rag_chain.py`) and complex carbon calculations (`carbon_calculator.py`) over a lightning-fast API server (`server.py`).
+- **Multilingual RAG Chatbot UI**: An animated speech-bubble dialog interface featuring role-based presets (General, Local, Researcher, NGO) and quick Urdu & Sindhi translations.
+- **Live Carbon Footprint Radial Gauge**: Dynamic interactive inputs with instant gauge updates showing equivalent trees required and flight metrics.
+
+## Core Features
+
 
 - Multilingual support (English, Urdu, Sindhi)
 - Beautiful and professional user interface
