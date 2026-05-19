@@ -24,24 +24,44 @@ class DistrictSensorManager:
     
     def initialize_sensors(self):
         """Initialize sensors for all districts."""
-        # District coordinates (latitude, longitude)
+        # Complete district coordinates (latitude, longitude) for all 29 districts
         district_coords = {
-            'Karachi': {'lat': 24.8607, 'lon': 67.0011},
-            'Hyderabad': {'lat': 25.3969, 'lon': 68.3772},
-            'Sukkur': {'lat': 27.7131, 'lon': 68.8484},
-            'Larkana': {'lat': 27.5587, 'lon': 68.2120},
-            'Mirpur Khas': {'lat': 25.5279, 'lon': 69.0122},
-            'Thatta': {'lat': 24.7470, 'lon': 67.9235},
-            'Badin': {'lat': 24.6550, 'lon': 68.8380},
-            'Tharparkar': {'lat': 24.7520, 'lon': 70.8000},
-            'Khairpur': {'lat': 27.5295, 'lon': 68.7617},
-            'Jacobabad': {'lat': 28.2769, 'lon': 68.4514},
-            'Shikarpur': {'lat': 27.9550, 'lon': 68.6380},
-            'Nawabshah': {'lat': 26.2442, 'lon': 68.4100},
-            'Dadu': {'lat': 26.7319, 'lon': 67.7760},
-            'Jamshoro': {'lat': 25.4280, 'lon': 68.2800},
-            'Umerkot': {'lat': 25.3610, 'lon': 69.7360},
-            'Ghotki': {'lat': 28.0060, 'lon': 69.3160}
+            # Southern Sindh (Karachi divisions)
+            'karachi central': {'lat': 24.8607, 'lon': 67.0011},
+            'karachi east': {'lat': 24.8607, 'lon': 67.0011},
+            'karachi west': {'lat': 24.8607, 'lon': 67.0011},
+            'karachi south': {'lat': 24.8607, 'lon': 67.0011},
+            'karachi malir': {'lat': 24.8607, 'lon': 67.0011},
+            'karachi korangi': {'lat': 24.8607, 'lon': 67.0011},
+            'karachi keamari': {'lat': 24.8607, 'lon': 67.0011},
+            
+            # Southern Sindh (other districts)
+            'thatta': {'lat': 24.7470, 'lon': 67.9235},
+            'sujawal': {'lat': 24.6500, 'lon': 68.0500},
+            'badin': {'lat': 24.6550, 'lon': 68.8380},
+            'tharparkar': {'lat': 24.7520, 'lon': 70.8000},
+            'umerkot': {'lat': 25.3610, 'lon': 69.7360},
+            'mirpurkhas': {'lat': 25.5279, 'lon': 69.0122},
+            
+            # Central Sindh
+            'hyderabad': {'lat': 25.3969, 'lon': 68.3772},
+            'matiari': {'lat': 25.6000, 'lon': 68.4500},
+            'dadu': {'lat': 26.7319, 'lon': 67.7760},
+            'jamshoro': {'lat': 25.4280, 'lon': 68.2800},
+            'shaheed benazirabad': {'lat': 26.2442, 'lon': 68.4100},
+            'naushahro feroze': {'lat': 26.8500, 'lon': 68.1200},
+            'sanghar': {'lat': 26.0500, 'lon': 68.9500},
+            'tando allahyar': {'lat': 25.4500, 'lon': 68.7200},
+            'tando muhammad khan': {'lat': 25.1200, 'lon': 68.5400},
+            
+            # Northern Sindh
+            'sukkur': {'lat': 27.7131, 'lon': 68.8484},
+            'khairpur': {'lat': 27.5295, 'lon': 68.7617},
+            'ghotki': {'lat': 28.0060, 'lon': 69.3160},
+            'kashmore': {'lat': 28.4500, 'lon': 69.5800},
+            'jacobabad': {'lat': 28.2769, 'lon': 68.4514},
+            'shikarpur': {'lat': 27.9550, 'lon': 68.6380},
+            'larkana': {'lat': 27.5587, 'lon': 68.2120}
         }
         
         # Initialize both sensors for each district

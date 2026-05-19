@@ -24,7 +24,7 @@ def initialize_pinecone():
             name=config.PINECONE_INDEX,
             dimension=384,  # dimension for multilingual-MiniLM-L12-v2
             metric="cosine",
-            spec=ServerlessSpec(cloud="aws", region=config.PINECONE_ENVIRONMENT.split('-')[0])
+            spec=ServerlessSpec(cloud="aws", region=config.PINECONE_ENVIRONMENT)
         )
         print(f"Created new Pinecone index: {config.PINECONE_INDEX}")
     

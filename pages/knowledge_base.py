@@ -26,23 +26,104 @@ def custom_header(title, description=None):
         st.session_state.theme = "light"
         
     if st.session_state.theme == "dark":
-        title_color = "#81C784"
-        desc_color = "#b0b0b0"
-        border_color = "#333333"
+        title_color = "#00E5FF"  # Bright cyan for dark theme
+        desc_color = "#B0B0B0"
+        border_color = "#1E4976"
+        gradient_start = "#0A1929"
+        gradient_end = "#132F4C"
+        accent_color = "#00E5FF"
+        shadow_color = "rgba(0, 229, 255, 0.3)"
     else:
-        title_color = "#2E7D32"
-        desc_color = "#555555"
-        border_color = "#e0e0e0"
+        title_color = "#2196F3"  # Material blue for light theme
+        desc_color = "#455A64"
+        border_color = "#BBDEFB"
+        gradient_start = "#F0F7FF"
+        gradient_end = "#E3F2FD"
+        accent_color = "#2196F3"
+        shadow_color = "rgba(33, 150, 243, 0.2)"
     
-    # Create header with title
-    st.markdown(f"<h1 style='color: {title_color}; font-size: 26px; font-weight: bold; margin-bottom: 5px;'>{title}</h1>", unsafe_allow_html=True)
+    # Apply custom CSS for the header
+    st.markdown(f"""
+    <style>
+    .beautiful-header {{
+        background: linear-gradient(135deg, {gradient_start}, {gradient_end});
+        border-radius: 20px;
+        padding: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 8px 32px {shadow_color};
+        border: 1px solid {border_color};
+        position: relative;
+        overflow: hidden;
+    }}
     
-    # Add description if provided
-    if description:
-        st.markdown(f"<p style='color: {desc_color}; font-size: 16px; margin-top: 0px;'>{description}</p>", unsafe_allow_html=True)
+    .beautiful-header::before {{
+        content: '';
+        position: absolute;
+        top: -50px;
+        right: -50px;
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(circle, {accent_color}20, transparent);
+        border-radius: 50%;
+    }}
     
-    # Add divider
-    st.markdown(f"<hr style='border-top: 2px solid {border_color}; margin-bottom: 20px;'/>", unsafe_allow_html=True)
+    .beautiful-header::after {{
+        content: '';
+        position: absolute;
+        bottom: -30px;
+        left: -30px;
+        width: 60px;
+        height: 60px;
+        background: radial-gradient(circle, {accent_color}15, transparent);
+        border-radius: 50%;
+    }}
+    
+    .header-content {{
+        position: relative;
+        z-index: 2;
+    }}
+    
+    .header-title {{
+        color: {title_color};
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        letter-spacing: 1px;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }}
+    
+    .header-description {{
+        color: {desc_color};
+        font-size: 18px;
+        line-height: 1.6;
+        margin-top: 10px;
+        font-weight: 400;
+        opacity: 0.9;
+    }}
+    
+    .header-underline {{
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(90deg, {accent_color}, {title_color});
+        border-radius: 2px;
+        margin-top: 20px;
+        box-shadow: 0 2px 8px {shadow_color};
+    }}
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Create the header using Streamlit components
+    with st.container():
+        st.markdown(f"""
+        <div class="beautiful-header">
+            <div class="header-content">
+                <div class="header-title">📚 {title}</div>
+                {f'<div class="header-description">{description}</div>' if description else ''}
+                <div class="header-underline"></div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
 # Custom function to get translations
 def get_translation(translations, key):
@@ -69,10 +150,10 @@ def show_knowledge_base():
             "view": "View",
             "filter_by": "Filter by:",
             "all": "All",
-            "research": "Research Papers",
-            "policy": "Policy Documents",
-            "guides": "Practical Guides",
-            "local": "Local Impact Studies"
+            "research": "Research",
+            "policy": "Policy",
+            "guides": "Guides",
+            "local": "Local"
         },
         "urdu": {
             "title": "معلوماتی مرکز",
@@ -87,10 +168,10 @@ def show_knowledge_base():
             "view": "دیکھیں",
             "filter_by": "فلٹر کریں:",
             "all": "تمام",
-            "research": "تحقیقی مقالے",
-            "policy": "پالیسی دستاویزات",
-            "guides": "عملی رہنما",
-            "local": "مقامی اثرات کے مطالعات"
+            "research": "تحقیق",
+            "policy": "پالیسی",
+            "guides": "رہنما",
+            "local": "مقامی"
         },
         "sindhi": {
             "title": "ڄاڻ جو مرڪز",
@@ -105,10 +186,10 @@ def show_knowledge_base():
             "view": "ڏسو",
             "filter_by": "فلٽر جي ذريعي:",
             "all": "سڀ",
-            "research": "تحقيقي مقالا",
-            "policy": "پاليسي دستاويز",
-            "guides": "عملي رهنمائي",
-            "local": "مقامي اثرن جا مطالعا"
+            "research": "تحقيق",
+            "policy": "پاليسي",
+            "guides": "رهنمائي",
+            "local": "مقامي"
         }
     }
     
@@ -116,6 +197,21 @@ def show_knowledge_base():
     
     # Display header
     custom_header(t["title"], t["description"])
+    
+    # Add CSS for smaller filter button text
+    st.markdown("""
+    <style>
+    /* Make filter buttons text smaller to prevent wrapping */
+    div[data-testid="stButton"] button {
+        font-size: 9px !important;
+        padding: 6px 8px !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        line-height: 1.2 !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
     
     # Main layout
     col1, col2 = st.columns([2, 1])

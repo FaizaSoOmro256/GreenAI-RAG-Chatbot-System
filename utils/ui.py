@@ -658,7 +658,7 @@ def render_footer():
                 font-weight: 600;
                 margin: 0;
                 letter-spacing: 0.5px;
-            ">GreenAI v1.0.0 All Rights Reserved 2024</p>
+            ">GreenAI v1.0.0 All Rights Reserved 2025</p>
         </div>
     </div>
     """
@@ -931,7 +931,7 @@ def render_sidebar():
         st.markdown("""
             <div style='margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #E0E0E0;'>
                 <p style='color: #78909C; font-size: 0.8rem; text-align: center; margin: 0;'>Version 1.0.0</p>
-                <p style='color: #78909C; font-size: 0.8rem; text-align: center; margin: 0.5rem 0 0 0;'>© 2024 GreenAI</p>
+                <p style='color: #78909C; font-size: 0.8rem; text-align: center; margin: 0.5rem 0 0 0;'>© 2025 GreenAI</p>
             </div>
         """, unsafe_allow_html=True)
 

@@ -357,12 +357,31 @@ def render_chatbot_interface(translations=None):
                         </div>
                     </div>
                     """, unsafe_allow_html=True)
+ 
+        # Role selector (outside form so UI updates immediately)
+        st.selectbox(
+            label="Role",
+            options=["General", "Local people", "Researchers", "NGOs"],
+            index=0,
+            key="chat_role_label"
+        )
+        # Local-language toggle for Local people
+        input_placeholder = translations.get("chat_placeholder", "Type your message here...")
+        if st.session_state.get("chat_role_label") == "Local people":
+            lang_choice = st.selectbox(
+                label="Local language",
+                options=["Urdu", "Sindhi"],
+                index=0 if st.session_state.get("chat_local_lang") != "sindhi" else 1,
+                key="chat_local_lang_label"
+            )
+            st.session_state["chat_local_lang"] = "urdu" if lang_choice == "Urdu" else "sindhi"
+            input_placeholder = "اپنا سوال یہاں لکھیں..." if st.session_state["chat_local_lang"] == "urdu" else "پنھنجو سوال هتي لکو..."
 
         # Create form for chat input
         with st.form(key="chat_form", clear_on_submit=True):
             user_input = st.text_input(
                 label="Message",
-                placeholder=translations.get("chat_placeholder", "Type your message here..."),
+                placeholder=input_placeholder,
                 key="chat_input",
                 label_visibility="collapsed"
             )
@@ -443,5 +462,5 @@ def show_chatbot():
     render_chatbot_interface({
         "chat_desc": "Your AI assistant for climate information in Sindh",
         "chat_placeholder": "Ask me about climate in any Sindh district...",
-        "response_generator": st.session_state.chatbot.get_response
+        "response_generator": st.session_state.chatbot.get_role_aware_response
     }) 

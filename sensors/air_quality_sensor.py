@@ -5,7 +5,7 @@ Implements sensors for measuring air quality parameters like CO2, PM2.5, etc.
 
 import time
 import random  # For simulation purposes
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 import pandas as pd
 
 class AirQualitySensor:
@@ -16,6 +16,41 @@ class AirQualitySensor:
     
     def __init__(self, sensor_id: str, location: Dict[str, float], 
                  update_interval: int = 300, simulate: bool = True):
+        """
+        Initialize the air quality sensor.
+        
+        Args:
+            sensor_id: Unique identifier for the sensor
+            location: Dictionary with 'latitude' and 'longitude' keys
+            update_interval: Time in seconds between sensor readings (default: 5 minutes)
+            simulate: Whether to simulate the sensor (default: True)
+        """
+        self.sensor_id = sensor_id
+        self.location = location
+        self.update_interval = update_interval
+        self.simulate = simulate
+        self.readings = []  # Store historical readings
+        self.is_active = True  # Add is_active attribute for compatibility
+        self.last_reading_time = 0  # Add last_reading_time for compatibility
+        
+        # Generate initial 30 days of historical data
+        if simulate:
+            self._generate_historical_data()
+        
+        if not simulate:
+            try:
+                # Import required libraries for actual sensors
+                # This would depend on the specific hardware being used
+                # For example, for a BME680:
+                # import board
+                # import busio
+                # import adafruit_bme680
+                # i2c = busio.I2C(board.SCL, board.SDA)
+                # self.sensor = adafruit_bme680.Adafruit_BME680_I2C(i2c)
+                print(f"Initialized air quality sensor {sensor_id}")
+            except ImportError:
+                print("Required libraries not found. Falling back to simulation mode.")
+                self.simulate = True
         """
         Initialize the air quality sensor.
         
@@ -115,6 +150,7 @@ class AirQualitySensor:
             
             # Store the reading
             self.readings.append(reading)
+            self.last_reading_time = time.time()  # Update last reading time
             
             # Keep only last 30 days of readings
             max_readings = 30 * 24 * 12  # 12 readings per hour * 24 hours * 30 days
@@ -142,7 +178,7 @@ class AirQualitySensor:
                 
                 print(f"Air quality: CO2={co2}ppm, PM2.5={pm25}µg/m³, PM10={pm10}µg/m³, VOC={voc}ppb, AQI={aqi}")
                 
-                return {
+                reading = {
                     "co2": co2,
                     "pm25": pm25,
                     "pm10": pm10,
@@ -151,8 +187,15 @@ class AirQualitySensor:
                     "co2_unit": "ppm",
                     "pm_unit": "µg/m³",
                     "voc_unit": "ppb",
-                    "timestamp": time.time()
+                    "timestamp": time.time(),
+                    "location": self.location
                 }
+                
+                # Store the reading
+                self.readings.append(reading)
+                self.last_reading_time = time.time()  # Update last reading time
+                
+                return reading
             except Exception as e:
                 print(f"Error reading air quality sensor: {str(e)}")
                 raise
@@ -254,4 +297,41 @@ class AirQualitySensor:
         df = self.get_aggregated_readings(days, aggregation)
         if df.empty:
             return pd.DataFrame()
-        return df[['aqi']] 
+        return df[['aqi']]
+    
+    def get_reading(self, force_update: bool = False) -> Optional[Dict[str, Any]]:
+        """Get the most recent sensor reading.
+        
+        Args:
+            force_update: Whether to force a new reading
+            
+        Returns:
+            Dictionary containing the most recent sensor reading or None if no readings available
+        """
+        if not self.readings:
+            # Generate a new reading if none exist
+            return self.read_sensor()
+        return self.readings[-1]
+    
+    def activate(self) -> None:
+        """Activate the sensor."""
+        self.is_active = True
+    
+    def deactivate(self) -> None:
+        """Deactivate the sensor."""
+        self.is_active = False
+    
+    def get_sensor_info(self) -> Dict[str, Any]:
+        """
+        Get information about the sensor.
+        
+        Returns:
+            Dictionary containing sensor information
+        """
+        return {
+            "sensor_id": self.sensor_id,
+            "location": self.location,
+            "update_interval": self.update_interval,
+            "last_reading_time": self.last_reading_time,
+            "is_active": self.is_active
+        } 

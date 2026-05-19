@@ -24,6 +24,74 @@ district_climate_data = {
                 "summer": "65-75%",
                 "winter": "40-50%",
                 "trend": "Variable depending on monsoon"
+            },
+            "wind": {
+                "average_speed": "12-15 km/h",
+                "prevailing_direction": "Southwest",
+                "storm_frequency": "3-4 per year"
+            },
+            "atmospheric_pressure": {
+                "annual_average": "1013 hPa",
+                "seasonal_variation": "±4 hPa",
+                "monsoon_low": "1009-1011 hPa"
+            },
+            "solar_radiation": {
+                "annual_average": "5.5 kWh/m²/day",
+                "summer_peak": "6.8 kWh/m²/day",
+                "winter_minimum": "3.9 kWh/m²/day",
+                "sunny_days": "260-280 days/year"
+            },
+            "cloud_cover": {
+                "annual_average": "35%",
+                "monsoon_season": "70-80%",
+                "dry_season": "15-20%"
+            },
+            "evaporation": {
+                "annual_rate": "1900-2200mm",
+                "summer_peak": "9-12mm/day",
+                "winter_minimum": "3-5mm/day"
+            }
+        },
+        "seasonal_patterns": {
+            "summer": {
+                "duration": "April-September",
+                "characteristics": "Very hot and humid",
+                "temperature_range": "32-45°C",
+                "rainfall": "Monsoon dependent"
+            },
+            "winter": {
+                "duration": "December-February",
+                "characteristics": "Mild and dry",
+                "temperature_range": "10-25°C",
+                "rainfall": "Occasional light showers"
+            },
+            "monsoon": {
+                "duration": "July-September",
+                "characteristics": "Hot and humid with heavy rainfall",
+                "peak_months": "July-August",
+                "rainfall_contribution": "80% of annual"
+            },
+            "spring_autumn": {
+                "duration": "March, October-November",
+                "characteristics": "Pleasant transitional periods",
+                "temperature_range": "18-32°C"
+            }
+        },
+        "extreme_weather": {
+            "heat_waves": {
+                "frequency": "4-6 per year",
+                "duration": "3-7 days",
+                "peak_temperature": "46-48°C"
+            },
+            "urban_flooding": {
+                "frequency": "1-2 per year",
+                "risk_period": "July-September",
+                "impact": "Low-lying urban areas"
+            },
+            "dust_storms": {
+                "frequency": "5-8 per year",
+                "peak_season": "April-June",
+                "intensity": "Moderate"
             }
         },
         "historical_data": {
@@ -80,6 +148,32 @@ district_climate_data = {
                 "summer": "60-70%",
                 "winter": "40-50%",
                 "trend": "Variable with agricultural patterns"
+            },
+            "wind": {
+                "average_speed": "10-15 km/h",
+                "prevailing_direction": "Southwest",
+                "storm_frequency": "2-3 per year"
+            },
+            "atmospheric_pressure": {
+                "annual_average": "1013 hPa",
+                "seasonal_variation": "±5 hPa",
+                "monsoon_low": "1008-1010 hPa"
+            },
+            "solar_radiation": {
+                "annual_average": "5.7 kWh/m²/day",
+                "summer_peak": "7.1 kWh/m²/day",
+                "winter_minimum": "4.0 kWh/m²/day",
+                "sunny_days": "275-295 days/year"
+            },
+            "cloud_cover": {
+                "annual_average": "28%",
+                "monsoon_season": "65-75%",
+                "dry_season": "10-15%"
+            },
+            "evaporation": {
+                "annual_rate": "2100-2400mm",
+                "summer_peak": "11-14mm/day",
+                "winter_minimum": "3-5mm/day"
             }
         },
         "historical_data": {
@@ -136,6 +230,69 @@ district_climate_data = {
                 "summer": "40-55%",
                 "winter": "25-45%",
                 "trend": "Decreasing with rising temperatures"
+            },
+            "wind": {
+                "average_speed": "14-20 km/h",
+                "prevailing_direction": "Southwest",
+                "storm_frequency": "4-6 per year"
+            },
+            "atmospheric_pressure": {
+                "annual_average": "1013 hPa",
+                "seasonal_variation": "±6 hPa",
+                "monsoon_low": "1007-1009 hPa"
+            },
+            "solar_radiation": {
+                "annual_average": "6.2 kWh/m²/day",
+                "summer_peak": "7.8 kWh/m²/day",
+                "winter_minimum": "4.3 kWh/m²/day",
+                "sunny_days": "300-320 days/year"
+            },
+            "cloud_cover": {
+                "annual_average": "20%",
+                "monsoon_season": "50-60%",
+                "dry_season": "5-10%"
+            },
+            "evaporation": {
+                "annual_rate": "2500-2800mm",
+                "summer_peak": "15-18mm/day",
+                "winter_minimum": "4-6mm/day"
+            }
+        },
+        "seasonal_patterns": {
+            "summer": {
+                "duration": "April-September",
+                "characteristics": "Extremely hot and dry",
+                "temperature_range": "35-47°C",
+                "rainfall": "Minimal except monsoon"
+            },
+            "winter": {
+                "duration": "December-February",
+                "characteristics": "Cool and dry",
+                "temperature_range": "8-22°C",
+                "rainfall": "Very light occasional showers"
+            },
+            "monsoon": {
+                "duration": "July-September",
+                "characteristics": "Hot with limited rainfall",
+                "peak_months": "July-August",
+                "rainfall_contribution": "70% of annual"
+            }
+        },
+        "extreme_weather": {
+            "heat_waves": {
+                "frequency": "7-10 per year",
+                "duration": "5-10 days",
+                "peak_temperature": "48-50°C"
+            },
+            "dust_storms": {
+                "frequency": "10-15 per year",
+                "peak_season": "April-June",
+                "intensity": "Severe"
+            },
+            "droughts": {
+                "frequency": "1-2 per decade",
+                "duration": "6-18 months",
+                "impact": "Agricultural and water supply"
             }
         },
         "historical_data": {
@@ -1123,6 +1280,125 @@ district_climate_data = {
             "Industrial safety",
             "Marine conservation",
             "Infrastructure upgrade"
+        ]
+    },
+    "kashmore": {
+        "climate_profile": {
+            "temperature": {
+                "annual_average": "33°C",
+                "summer_max": "49°C",
+                "winter_min": "6°C",
+                "trend": "Increasing by 0.6°C per decade"
+            },
+            "rainfall": {
+                "annual_average": "80-110mm",
+                "monsoon_contribution": "65%",
+                "rainy_days": "12-16 days per year",
+                "trend": "Decreasing by 2.2mm per year"
+            },
+            "humidity": {
+                "annual_average": "25-45%",
+                "summer": "35-50%",
+                "winter": "20-40%",
+                "trend": "Decreasing with extreme heat"
+            },
+            "wind": {
+                "average_speed": "16-22 km/h",
+                "prevailing_direction": "Southwest",
+                "storm_frequency": "5-7 per year"
+            },
+            "atmospheric_pressure": {
+                "annual_average": "1013 hPa",
+                "seasonal_variation": "±7 hPa",
+                "monsoon_low": "1006-1008 hPa"
+            },
+            "solar_radiation": {
+                "annual_average": "6.4 kWh/m²/day",
+                "summer_peak": "8.2 kWh/m²/day",
+                "winter_minimum": "4.5 kWh/m²/day",
+                "sunny_days": "310-330 days/year"
+            },
+            "cloud_cover": {
+                "annual_average": "15%",
+                "monsoon_season": "45-55%",
+                "dry_season": "3-8%"
+            },
+            "evaporation": {
+                "annual_rate": "2600-3000mm",
+                "summer_peak": "16-20mm/day",
+                "winter_minimum": "4-7mm/day"
+            }
+        },
+        "seasonal_patterns": {
+            "summer": {
+                "duration": "April-September",
+                "characteristics": "Extremely hot and arid",
+                "temperature_range": "38-49°C",
+                "rainfall": "Minimal except brief monsoon"
+            },
+            "winter": {
+                "duration": "December-February",
+                "characteristics": "Cool and very dry",
+                "temperature_range": "6-20°C",
+                "rainfall": "Negligible"
+            },
+            "monsoon": {
+                "duration": "July-August",
+                "characteristics": "Hot with limited rainfall",
+                "peak_months": "July",
+                "rainfall_contribution": "65% of annual"
+            }
+        },
+        "extreme_weather": {
+            "heat_waves": {
+                "frequency": "10-15 per year",
+                "duration": "7-15 days",
+                "peak_temperature": "50-52°C"
+            },
+            "dust_storms": {
+                "frequency": "15-25 per year",
+                "peak_season": "March-June",
+                "intensity": "Severe to extreme"
+            },
+            "droughts": {
+                "frequency": "2-3 per decade",
+                "duration": "12-30 months",
+                "impact": "Severe agricultural and water crisis"
+            }
+        },
+        "historical_data": {
+            "temperature_pattern": "Dramatic increase since 1990s",
+            "extreme_events": [
+                "Record heat waves 2015, 2018, 2020",
+                "Severe drought 2014-2017",
+                "Flash floods 2010"
+            ],
+            "climate_shifts": {
+                "1960-1980": "Hot desert climate",
+                "1981-2000": "Increasing aridity",
+                "2001-present": "Extreme heat, severe water stress"
+            }
+        },
+        "future_projections": {
+            "2025-2050": {
+                "temperature": "Expected increase of 3.5-4.5°C",
+                "rainfall": "Further decrease likely",
+                "extreme_events": "More frequent extreme heat"
+            }
+        },
+        "challenges": [
+            "Extreme heat stress",
+            "Severe water scarcity",
+            "Desertification",
+            "Agricultural collapse risk",
+            "Human migration pressure"
+        ],
+        "adaptation_measures": [
+            "Emergency water supply systems",
+            "Heat shelter programs",
+            "Drought-resistant livelihood options",
+            "Early warning systems",
+            "Community resilience building"
         ]
     }
 }
