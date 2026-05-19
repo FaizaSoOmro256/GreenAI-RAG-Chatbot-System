@@ -9,6 +9,7 @@ from datetime import datetime
 import logging
 import requests
 from dotenv import load_dotenv
+from config import OPENWEATHERMAP_API_KEY
 from data.district_data import (
     sindh_regions,
     regional_challenges,
@@ -29,7 +30,7 @@ class ClimateDataIntegrator:
     
     def __init__(self):
         # API keys
-        self.weather_api_key = os.getenv("OPENWEATHERMAP_API_KEY")
+        self.weather_api_key = OPENWEATHERMAP_API_KEY
         
         # Initialize data sources
         self.initialize_data_sources()

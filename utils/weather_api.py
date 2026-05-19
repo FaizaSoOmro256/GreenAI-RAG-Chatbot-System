@@ -10,6 +10,7 @@ import streamlit as st
 import datetime
 import logging
 from typing import Dict, Optional
+from config import OPENWEATHERMAP_API_KEY
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -19,8 +20,8 @@ logger = logging.getLogger(__name__)
 if os.path.exists('.env'):
     load_dotenv()
 
-# Get API key from environment variable
-OPENWEATHER_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
+# Use API key from config
+OPENWEATHER_API_KEY = OPENWEATHERMAP_API_KEY
 
 if not OPENWEATHER_API_KEY or OPENWEATHER_API_KEY == "your_api_key_here":
     logger.warning("OpenWeatherMap API key is not configured. Please set OPENWEATHERMAP_API_KEY in your environment variables.")
@@ -300,7 +301,7 @@ class RealTimeClimateData:
     
     def __init__(self):
         """Initialize the RealTimeClimateData class."""
-        self.api_key = os.getenv('OPENWEATHERMAP_API_KEY')
+        self.api_key = OPENWEATHERMAP_API_KEY
         if not self.api_key:
             logger.error("OpenWeatherMap API key not found in environment variables")
             raise ValueError("OpenWeatherMap API key not found. Please set OPENWEATHERMAP_API_KEY environment variable.")

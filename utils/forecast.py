@@ -8,13 +8,14 @@ from dotenv import load_dotenv
 import plotly.express as px
 import plotly.graph_objects as go
 from utils.weather_api import location_map
+from config import OPENWEATHERMAP_API_KEY
 
 # Load environment variables (only if .env file exists, to avoid overriding Streamlit Cloud secrets)
 if os.path.exists('.env'):
     load_dotenv()
 
-# Get API key from environment variables
-OPENWEATHER_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
+# Use API key from config
+OPENWEATHER_API_KEY = OPENWEATHERMAP_API_KEY
 
 @st.cache_data(ttl=3600)  # Cache data for 1 hour
 def get_forecast_data(location):
