@@ -4,4 +4,3 @@ gcc
 g++
 libopenblas-dev
 liblapack-dev
-libatlas-base-dev
