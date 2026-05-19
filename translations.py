@@ -1,8 +1,8 @@
 TRANSLATIONS = {
     "english": {
-        "title": "GreenAI Climate Action Dashboard",
+        "title": "Ecosphere AI Climate Action Dashboard",
         "description": "Your comprehensive platform for climate data, sustainability resources, and personalized recommendations for Sindh region.",
-        "welcome": "Welcome to GreenAI",
+        "welcome": "Welcome to Ecosphere AI",
         "intro": "Explore our features to learn about climate conditions, calculate your carbon footprint, and discover sustainable actions.",
         "features": "Features",
         "carbon_calc": "Carbon Calculator",
@@ -42,9 +42,9 @@ TRANSLATIONS = {
         "no_data": "No data available"
     },
     "urdu": {
-        "title": "گرین اے آئی موسمیاتی عمل ڈیش بورڈ",
+        "title": "ایکوسفیئر اے آئی موسمیاتی عمل ڈیش بورڈ",
         "description": "سندھ کے علاقے کے لیے موسمیاتی ڈیٹا، استحکام کے وسائل، اور ذاتی سفارشات کے لیے آپ کا جامع پلیٹ فارم۔",
-        "welcome": "گرین اے آئی میں خوش آمدید",
+        "welcome": "ایکوسفیئر اے آئی میں خوش آمدید",
         "intro": "موسمیاتی حالات کے بارے میں جاننے، اپنے کاربن فٹ پرنٹ کا حساب لگانے، اور پائیدار اقدامات دریافت کرنے کے لیے ہماری خصوصیات کو دیکھیں۔",
         "features": "خصوصیات",
         "carbon_calc": "کاربن کیلکولیٹر",
@@ -84,9 +84,9 @@ TRANSLATIONS = {
         "no_data": "کوئی ڈیٹا دستیاب نہیں"
     },
     "sindhi": {
-        "title": "گرين اي موسمياتي ايڪشن ڊيش بورڊ",
+        "title": "ايڪوسفيئر اي آئي موسمياتي ايڪشن ڊيش بورڊ",
         "description": "سنڌ جي موسمياتي تبديلي ۽ پائيدار ترقي لاءِ ڊيٽا-مبني فيصلو سازي",
-        "welcome": "گرين اي ۾ خوش آمديد",
+        "welcome": "ايڪوسفيئر اي آئي ۾ خوش آمدید",
         "intro": "اسان جو موسمياتي ايڪشن ايڪسسٽنٽ سنڌ جي موسمياتي حالتن، رجحانن، ۽ پائيدار ترقي جي سفارشن بابت معلومات فراهم ڪري ٿو.",
         "features": "خاصيتون",
         "weather": "موسمياتي ڊيٽا",
@@ -101,7 +101,7 @@ TRANSLATIONS = {
         "offsets_desc": "ڪاربان آفسيٽس پروگرامن بابت معلومات",
         "kb": "نوليڪج بيس",
         "kb_desc": "موسمياتي تبديلي ۽ پائيدار ترقي بابت علمي مواد",
-        "assistant_title": "گرين اي موسمياتي ايڪشن ايڪسسٽنٽ",
+        "assistant_title": "ايڪوسفيئر اي آئي موسمياتي ايڪشن ايڪسسٽنٽ",
         "current_conditions": "حاليہ حالتون",
         "temperature": "درجه حرارت",
         "humidity": "نمي",

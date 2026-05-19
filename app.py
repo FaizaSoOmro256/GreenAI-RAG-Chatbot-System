@@ -1,5 +1,5 @@
 """
-GreenAI: An Intelligent RAG Chatbot for Sindh's Sustainable Climate Actions
+Ecosphere AI: An Intelligent RAG Chatbot for Sindh's Sustainable Climate Actions
 
 A multilingual (English/Urdu/Sindhi) web-based application with a professional UI
 that provides information about sustainable climate actions in Sindh.
@@ -53,7 +53,7 @@ from pages.climate_tips import show_climate_tips
 from pages.water_resources import show_water_resources
 
 # Sidebar navigation
-st.sidebar.title("GreenAI")
+st.sidebar.title("Ecosphere AI")
 # Use text-based branding instead of image
 st.sidebar.markdown("🤖 **Climate Action Platform**")
 
@@ -81,7 +81,7 @@ if selected_option in menu_options:
 
 # Add footer information
 st.sidebar.markdown("---")
-st.sidebar.caption("© 2025 GreenAI")
+st.sidebar.caption("© 2026 Ecosphere AI")
 st.sidebar.caption("Helping reduce AI's carbon footprint")
 
 # Language selection
@@ -106,7 +106,7 @@ for i, lang in enumerate(langs):
 
 # Information about the app
 st.sidebar.subheader("ℹ️ About")
-st.sidebar.markdown("GreenAI helps users learn about climate actions in Sindh, calculate their carbon footprint, and discover offset options.")
+st.sidebar.markdown("Ecosphere AI helps users learn about climate actions in Sindh, calculate their carbon footprint, and discover offset options.")
 
 # Add some helpful instructions
 st.sidebar.subheader("🔍 How to use")

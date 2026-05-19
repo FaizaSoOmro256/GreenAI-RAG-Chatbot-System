@@ -277,7 +277,7 @@ def show_home():
     # Header Section with enhanced styling
     st.markdown("""
         <div class="header">
-            <h1>GreenAI Climate Assistant</h1>
+            <h1>Ecosphere AI Climate Assistant</h1>
             <p>Empowering Sindh with Real-time Climate Intelligence</p>
         </div>
     """, unsafe_allow_html=True)

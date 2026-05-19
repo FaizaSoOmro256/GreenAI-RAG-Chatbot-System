@@ -1,5 +1,5 @@
 """
-Logger module for GreenAI.
+Logger module for Ecosphere AI.
 Provides centralized logging functionality.
 """
 
@@ -14,11 +14,11 @@ def setup_logger():
     os.makedirs(log_dir, exist_ok=True)
     
     # Configure logger
-    logger = logging.getLogger('GreenAI')
+    logger = logging.getLogger('EcosphereAI')
     logger.setLevel(logging.INFO)
     
     # Create file handler
-    log_file = os.path.join(log_dir, f'greenai_{datetime.now().strftime("%Y%m%d")}.log')
+    log_file = os.path.join(log_dir, f'ecosphere_{datetime.now().strftime("%Y%m%d")}.log')
     file_handler = logging.FileHandler(log_file)
     file_handler.setLevel(logging.INFO)
     

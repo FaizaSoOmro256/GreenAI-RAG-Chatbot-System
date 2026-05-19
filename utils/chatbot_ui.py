@@ -1,5 +1,5 @@
 """
-Modern thematic chatbot UI component for the GreenAI application.
+Modern thematic chatbot UI component for the Ecosphere AI application.
 Provides an eye-catching animated UI for the climate assistant.
 """
 
@@ -278,7 +278,7 @@ def get_chatbot_animation_html():
                 </div>
             </div>
         </div>
-        <div class="chatbot-title">GreenAI Climate Assistant</div>
+        <div class="chatbot-title">Ecosphere AI Climate Assistant</div>
         <div class="chatbot-subtitle">Your AI assistant for climate information in Sindh</div>
     </div>
     """

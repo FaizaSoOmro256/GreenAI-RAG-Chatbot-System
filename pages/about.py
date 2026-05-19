@@ -1,5 +1,5 @@
 """
-About module for GreenAI.
+About module for Ecosphere AI.
 Provides information about the application, its purpose, and creators.
 """
 
@@ -19,14 +19,14 @@ def get_image_base64(image_path):
 
 def show_about():
     """
-    Display the about page for GreenAI.
+    Display the about page for Ecosphere AI.
     """
     lang = st.session_state.get("language", "english")
     translations = {
         "english": {
             "description": "Learn about our mission and how we're helping communities in Sindh adapt to climate change.",
             "mission_title": "Our Mission",
-            "mission_text": "GreenAI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.",
+            "mission_text": "Ecosphere AI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.",
             "features_title": "Key Features",
             "contact_title": "Contact Us",
             "feedback_title": "Feedback",
@@ -37,7 +37,7 @@ def show_about():
         "urdu": {
             "description": "ہمارے مشن اور آب و ہوا کی تبدیلی سے موافقت میں سندھ کے برادریوں کی مدد کرنے کے بارے میں جانیں۔",
             "mission_title": "ہمارا مشن",
-            "mission_text": "گرین اے آئی کا مقصد سندھ میں برادریوں کو آب و ہوا کی تبدیلی کے اثرات کو سمجھنے، ان سے موافقت کرنے اور ان کو کم کرنے میں مدد کے لیے قابل رسائی، کثیر لسانی آب و ہوا کی معلومات اور ٹولز فراہم کرنا ہے۔",
+            "mission_text": "ایکوسفیئر اے آئی کا مقصد سندھ میں برادریوں کو آب و ہوا کی تبدیلی کے اثرات کو سمجھنے، ان سے موافقت کرنے اور ان کو کم کرنے میں مدد کے لیے قابل رسائی، کثیر لسانی آب و ہوا کی معلومات اور ٹولز فراہم کرنا ہے۔",
             "features_title": "اہم خصوصیات",
             "contact_title": "ہم سے رابطہ کریں",
             "feedback_title": "آراء",
@@ -48,7 +48,7 @@ def show_about():
         "sindhi": {
             "description": "اسان جي مشن ۽ سنڌ ۾ برادرين کي آب و هوا جي تبديلي سان موافقت ۾ مدد ڪرڻ بابت ڄاڻو.",
             "mission_title": "اسان جو مشن",
-            "mission_text": "گرين اي آءِ جو مقصد سنڌ ۾ برادرين کي آب و هوا جي تبديلي جي اثرن کي سمجهڻ، انهن سان موافقت ڪرڻ ۽ انهن کي گهٽائڻ ۾ مدد لاءِ قابل رسائي، ڪثير لساني آب و هوا جي معلومات ۽ اوزارن فراهم ڪرڻ آهي.",
+            "mission_text": "ايڪوسفيئر اي آئي جو مقصد سنڌ ۾ برادرين کي آب و هوا جي تبديلي جي اثرن کي سمجهڻ، انهن سان موافقت ڪرڻ ۽ انهن کي گهٽائڻ ۾ مدد لاءِ قابل رسائي، ڪثير لساني آب و هوا جي معلومات ۽ اوزارن فراهم ڪرڻ آهي.",
             "features_title": "اهم خصوصيتون",
             "contact_title": "اسان سے رابطہ کريں",
             "feedback_title": "راءِ",
@@ -84,7 +84,7 @@ def show_about():
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
             ">
-                🤖 About GreenAI
+                🤖 About Ecosphere AI
             </h1>
             <p style="
                 color: #455A64;
@@ -102,7 +102,7 @@ def show_about():
     st.markdown("""
     <div style='background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); padding: 30px; border-radius: 15px; margin: 20px 0;'>
         <h2 style='color: #1976D2; margin-bottom: 20px;'>Our Mission</h2>
-        <p style='color: #455A64; font-size: 1.1rem; line-height: 1.6;'>GreenAI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.</p>
+        <p style='color: #455A64; font-size: 1.1rem; line-height: 1.6;'>Ecosphere AI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -262,7 +262,7 @@ def show_about():
     st.markdown("""
     <div style='margin: 40px 0;'>
         <h2 style='color: #1976D2; margin-bottom: 30px; text-align: center;'>Our Team</h2>
-        <p style='color: #455A64; font-size: 1.1rem; text-align: center; margin-bottom: 30px;'>Meet the dedicated team behind GreenAI</p>
+        <p style='color: #455A64; font-size: 1.1rem; text-align: center; margin-bottom: 30px;'>Meet the dedicated team behind Ecosphere AI</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -517,7 +517,7 @@ def show_about():
     st.markdown("""
     <div class="gratitude-box">
         <p style="color: #455A64; font-size: 1.3rem; line-height: 1.8; margin: 0; text-align: justify;">
-            We would like to express our deepest gratitude to our supervisor, Madam Zojan Memon, for her invaluable guidance, continuous support, and expert advice throughout the development of this project. Her mentorship has been instrumental in shaping GreenAI into what it is today.
+            We would like to express our deepest gratitude to our supervisor, Madam Zojan Memon, for her invaluable guidance, continuous support, and expert advice throughout the development of this project. Her mentorship has been instrumental in shaping Ecosphere AI into what it is today.
         </p>
     </div>
     """, unsafe_allow_html=True)

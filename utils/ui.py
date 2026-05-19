@@ -651,14 +651,14 @@ def render_footer():
                 font-size: 0.95rem;
                 margin: 0 0 0.5rem 0;
                 opacity: 0.9;
-            ">GreenAI - Sindh's Sustainable Climate Actions Chatbot | Powered by Gemini Flash 2.0</p>
+            ">Ecosphere AI - Sindh's Sustainable Climate Actions Chatbot | Powered by Gemini Flash 2.0</p>
             <p style="
                 color: #1976D2;
                 font-size: 1.1rem;
                 font-weight: 600;
                 margin: 0;
                 letter-spacing: 0.5px;
-            ">GreenAI v1.0.0 All Rights Reserved 2025</p>
+            ">Ecosphere AI v1.0.0 All Rights Reserved 2026</p>
         </div>
     </div>
     """
@@ -931,7 +931,7 @@ def render_sidebar():
         st.markdown("""
             <div style='margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #E0E0E0;'>
                 <p style='color: #78909C; font-size: 0.8rem; text-align: center; margin: 0;'>Version 1.0.0</p>
-                <p style='color: #78909C; font-size: 0.8rem; text-align: center; margin: 0.5rem 0 0 0;'>© 2025 GreenAI</p>
+                <p style='color: #78909C; font-size: 0.8rem; text-align: center; margin: 0.5rem 0 0 0;'>© 2026 Ecosphere AI</p>
             </div>
         """, unsafe_allow_html=True)
 

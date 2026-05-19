@@ -482,7 +482,7 @@ class Timer:
 # Streamlit dashboard for monitoring
 def render_monitoring_dashboard():
     """Render a monitoring dashboard in Streamlit."""
-    st.title("GreenAI Performance Monitoring")
+    st.title("Ecosphere AI Performance Monitoring")
     
     # Create tabs for different sections
     main_tabs = st.tabs(["Performance Metrics", "Backup & Restore", "Export", "Data Management"])

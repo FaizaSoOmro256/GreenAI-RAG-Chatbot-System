@@ -1,5 +1,5 @@
 """
-GreenAI Climate Chatbot - Core Implementation
+Ecosphere AI Climate Chatbot - Core Implementation
 Provides climate data and response generation functionality.
 """
 
@@ -467,8 +467,8 @@ class ChatBot:
             return {}
 
     def get_about_info(self) -> str:
-        """Get information about GreenAI."""
-        return """GreenAI is an advanced climate information system designed specifically for Sindh, Pakistan. Here's what makes it special:
+        """Get information about Ecosphere AI."""
+        return """Ecosphere AI is an advanced climate information system designed specifically for Sindh, Pakistan. Here's what makes it special:
 
 • Purpose: Provides real-time climate and environmental data for all districts in Sindh
 • Features:
@@ -493,11 +493,11 @@ class ChatBot:
   - Provides actionable insights for sustainability
   - Makes climate data accessible to everyone
 
-GreenAI aims to empower Sindh's communities with the knowledge they need to address climate challenges and build a sustainable future."""
+Ecosphere AI aims to empower Sindh's communities with the knowledge they need to address climate challenges and build a sustainable future."""
 
     def get_team_info(self) -> str:
         """Get information about the project team."""
-        return """The GreenAI project is developed by a dedicated team from the Department of Computer Science at University of Sufism and Modern Sciences, Bhitshah:
+        return """The Ecosphere AI project is developed by a dedicated team from the Department of Computer Science at University of Sufism and Modern Sciences, Bhitshah:
 
 • Project Team:
   - Faiza Soomro (Team Lead)
@@ -513,7 +513,7 @@ The team is focused on developing innovative AI solutions for climate monitoring
 
     def get_sdg_info(self) -> str:
         """Get information about SDG relevance."""
-        return """GreenAI primarily addresses SDG 13 - Climate Action, while contributing to several other SDGs:
+        return """Ecosphere AI primarily addresses SDG 13 - Climate Action, while contributing to several other SDGs:
 
 • SDG 13 - Climate Action:
   - Strengthening climate resilience
@@ -535,7 +535,7 @@ The project helps achieve these targets through:
 
     def get_future_plans(self) -> str:
         """Get information about project future plans."""
-        return """GreenAI's future development plans include:
+        return """Ecosphere AI's future development plans include:
 
 Phase 1 (Current):
 • District-level climate data integration
@@ -626,7 +626,7 @@ Implementation Progress:
 
     def get_technical_info(self) -> str:
         """Get information about technical capabilities."""
-        return """GreenAI Technical Capabilities:
+        return """Ecosphere AI Technical Capabilities:
 
 Data Integration:
 • Real-time weather APIs
@@ -742,7 +742,7 @@ Limitations:
             return "Sorry, I encountered an error while retrieving sensor information."
 
     def is_about_query(self, query: str) -> bool:
-        """Check if query is asking about GreenAI."""
+        """Check if query is asking about Ecosphere AI."""
         query = query.lower().strip()
         
         # About question patterns
@@ -753,7 +753,7 @@ Limitations:
         
         # Project references
         project_refs = [
-            'greenai', 'green ai', 'the system', 'this system',
+            'ecosphere', 'ecosphereai', 'ecosphere ai', 'greenai', 'green ai', 'the system', 'this system',
             'this assistant', 'this project', 'the project'
         ]
         
@@ -761,8 +761,8 @@ Limitations:
         has_about = any(pattern in query for pattern in about_patterns)
         has_project = any(ref in query for ref in project_refs)
         
-        # Special case for direct "what is greenai" type questions
-        if query.startswith('what') and any(ref in query for ref in ['greenai', 'green ai']):
+        # Special case for direct "what is ecosphere" type questions
+        if query.startswith('what') and any(ref in query for ref in ['ecosphere', 'ecosphereai', 'ecosphere ai', 'greenai', 'green ai']):
             return True
             
         return has_about and has_project
@@ -790,7 +790,7 @@ Limitations:
         # Check for exact team question patterns
         has_team_pattern = any(pattern in query for pattern in team_patterns)
         has_team_member = any(member in query for member in team_members)
-        has_project_ref = any(ref in query for ref in ['greenai', 'green ai', 'project', 'this', 'the'])
+        has_project_ref = any(ref in query for ref in ['ecosphere', 'ecosphereai', 'ecosphere ai', 'greenai', 'green ai', 'project', 'this', 'the'])
         
         # Return true if we have a team pattern or team member name
         return has_team_pattern or has_team_member or (has_project_ref and 'who' in query)
@@ -1454,17 +1454,17 @@ Limitations:
 
     def get_welcome_message(self) -> str:
         """Get welcome message for new chat sessions."""
-        return """Welcome to GreenAI Climate Assistant! 👋
+        return """Welcome to Ecosphere AI Climate Assistant! 👋
 
 I can help you with:
-• Information about the GreenAI project and team
+• Information about the Ecosphere AI project and team
 • Climate data for all districts in Sindh
 • Environmental issues and adaptation measures
 • Research findings and technical details
 • SDG goals and future plans
 
 Try asking:
-• "What is GreenAI?"
+• "What is Ecosphere AI?"
 • "Tell me about the team"
 • "What's happening in Thatta?"
 • "How can we adapt to climate change?"
@@ -1476,7 +1476,7 @@ Just ask your question and I'll help you find the information you need!"""
         """Get default response for empty or unrecognized queries."""
         return """I can help you with various topics:
 
-• Project Information: Ask about GreenAI, the team, or SDG goals
+• Project Information: Ask about Ecosphere AI, the team, or SDG goals
 • Climate Data: Get information about any district in Sindh
 • Research Findings: Learn about our climate research
 • Adaptation Measures: Discover climate solutions

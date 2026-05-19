@@ -1,5 +1,5 @@
 """
-Compatibility check script for GreenAI dependencies.
+Compatibility check script for Ecosphere AI dependencies.
 This helps diagnose package compatibility issues.
 """
 
@@ -39,7 +39,7 @@ def check_import(module_name):
         return False, f"Error checking: {str(e)}"
 
 def main():
-    print("Checking compatibility of GreenAI dependencies...\n")
+    print("Checking compatibility of Ecosphere AI dependencies...\n")
     
     # Key packages to check
     packages = [
@@ -63,7 +63,7 @@ def main():
         installed, version = check_package_installed(pip_name)
         importable, import_version = check_import(package)
         
-        status = "✅ OK" if installed and importable else "❌ Issue"
+        status = "OK" if installed and importable else "Issue"
         
         print(f"{package.ljust(20)} | {status} | Pip: {version or 'Not installed'} | Import: {import_version if importable else 'Failed'}")
     
@@ -79,9 +79,9 @@ def main():
         
         # Known compatibility combinations
         if pinecone_version.startswith("2.0.") and langchain_pinecone_version.startswith("0.1."):
-            print("✅ This combination of pinecone and langchain-pinecone should be compatible")
+            print("[OK] This combination of pinecone and langchain-pinecone should be compatible")
         else:
-            print("⚠️ This combination of pinecone and langchain-pinecone might have compatibility issues")
+            print("[WARNING] This combination of pinecone and langchain-pinecone might have compatibility issues")
             
             # Suggest fixes
             print("\nSuggested fix:")
