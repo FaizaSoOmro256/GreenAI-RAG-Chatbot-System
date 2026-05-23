@@ -1,5 +1,5 @@
 """
-About module for Ecosphere AI.
+About module for Green AI.
 Provides information about the application, its purpose, and creators.
 """
 
@@ -19,7 +19,7 @@ def get_image_base64(image_path):
 
 def show_about():
     """
-    Display the about page for Ecosphere AI.
+    Display the about page for Green AI.
     """
     lang = st.session_state.get("language", "english")
     translations = {
@@ -102,7 +102,7 @@ def show_about():
     st.markdown("""
     <div style='background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); padding: 30px; border-radius: 15px; margin: 20px 0;'>
         <h2 style='color: #1976D2; margin-bottom: 20px;'>Our Mission</h2>
-        <p style='color: #455A64; font-size: 1.1rem; line-height: 1.6;'>Ecosphere AI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.</p>
+        <p style='color: #455A64; font-size: 1.1rem; line-height: 1.6;'>Green AI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -262,7 +262,7 @@ def show_about():
     st.markdown("""
     <div style='margin: 40px 0;'>
         <h2 style='color: #1976D2; margin-bottom: 30px; text-align: center;'>Our Team</h2>
-        <p style='color: #455A64; font-size: 1.1rem; text-align: center; margin-bottom: 30px;'>Meet the dedicated team behind Ecosphere AI</p>
+        <p style='color: #455A64; font-size: 1.1rem; text-align: center; margin-bottom: 30px;'>Meet the dedicated team behind Green AI</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -517,7 +517,7 @@ def show_about():
     st.markdown("""
     <div class="gratitude-box">
         <p style="color: #455A64; font-size: 1.3rem; line-height: 1.8; margin: 0; text-align: justify;">
-            We would like to express our deepest gratitude to our supervisor, Madam Zojan Memon, for her invaluable guidance, continuous support, and expert advice throughout the development of this project. Her mentorship has been instrumental in shaping Ecosphere AI into what it is today.
+            We would like to express our deepest gratitude to our supervisor, Madam Zojan Memon, for her invaluable guidance, continuous support, and expert advice throughout the development of this project. Her mentorship has been instrumental in shaping Green AI into what it is today.
         </p>
     </div>
     """, unsafe_allow_html=True)
