@@ -763,6 +763,8 @@ Limitations:
 
         # Special case for direct "what is Green AI" type questions (legacy Ecosphere queries still supported)
         if query.startswith('what') and any(ref in query for ref in ['ecosphere', 'green', 'greenai', 'green ai']):
+            return True
+
         return has_about and has_project
 
     def is_team_query(self, query: str) -> bool:
@@ -788,7 +790,7 @@ Limitations:
         # Check for exact team question patterns
         has_team_pattern = any(pattern in query for pattern in team_patterns)
         has_team_member = any(member in query for member in team_members)
-        has_project_ref = any(ref in query for ref in ['ecosphere', 'green', 'greenai', 'green ai', 'project', 'this', 'the'])
+        has_project_ref = any(ref in query for ref in ['ecosphere', 'greenai', 'green ai', 'greenai', 'green ai', 'project', 'this', 'the'])
         
         # Return true if we have a team pattern or team member name
         return has_team_pattern or has_team_member or (has_project_ref and 'who' in query)
