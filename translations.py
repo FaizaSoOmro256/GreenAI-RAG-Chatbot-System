@@ -1,8 +1,8 @@
 TRANSLATIONS = {
     "english": {
-        "title": "Ecosphere AI Climate Action Dashboard",
+        "title": "Green AI Climate Action Dashboard",
         "description": "Your comprehensive platform for climate data, sustainability resources, and personalized recommendations for Sindh region.",
-        "welcome": "Welcome to Ecosphere AI",
+        "welcome": "Welcome to Green AI",
         "intro": "Explore our features to learn about climate conditions, calculate your carbon footprint, and discover sustainable actions.",
         "features": "Features",
         "carbon_calc": "Carbon Calculator",
