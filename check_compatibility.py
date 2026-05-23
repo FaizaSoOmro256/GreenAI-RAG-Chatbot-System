@@ -1,5 +1,5 @@
 """
-Compatibility check script for Ecosphere AI dependencies.
+Compatibility check script for Green AI dependencies.
 This helps diagnose package compatibility issues.
 """
 
@@ -39,7 +39,7 @@ def check_import(module_name):
         return False, f"Error checking: {str(e)}"
 
 def main():
-    print("Checking compatibility of Ecosphere AI dependencies...\n")
+    print("Checking compatibility of Green AI dependencies...\n")
     
     # Key packages to check
     packages = [
