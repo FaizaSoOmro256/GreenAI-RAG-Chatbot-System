@@ -34,7 +34,7 @@ SUPPORTED_LANGUAGES = {
     "sindhi": "سنڌي"
 }
 
-APP_TITLE = "Ecosphere AI: Sindh's Sustainable Climate Actions"
+APP_TITLE = "Green AI: Sindh's Sustainable Climate Actions"
 APP_DESCRIPTION = {
     "english": "An intelligent chatbot for information on sustainable climate actions in Sindh",
     "urdu": "سندھ میں پائیدار آب و ہوا کے اقدامات کے بارے میں معلومات کے لیے ایک ذہین چیٹ بوٹ",
@@ -42,7 +42,7 @@ APP_DESCRIPTION = {
 }
 
 WELCOME_MESSAGE = {
-    "english": "👋 Hello! I'm Ecosphere AI, your assistant for sustainable climate actions in Sindh. How can I help you today?",
+    "english": "👋 Hello! I'm Green AI, your assistant for sustainable climate actions in Sindh. How can I help you today?",
     "urdu": "👋 ہیلو! میں ایکوسفیئر اے آئی ہوں، سندھ میں پائیدار آب و ہوا کے اقدامات کے لیے آپکا اسسٹنٹ۔ میں آج آپ کی کیسے مدد کر سکتا ہوں؟",
     "sindhi": "👋 هيلو! مان ايڪوسفيئر اي آئي آهيان، سنڌ ۾ پائيدار آب و هوا جي قدمن لاءِ توهان جو اسسٽنٽ. مان اڄ توهان جي ڪيئن مدد ڪري سگھان ٿو؟"
 }

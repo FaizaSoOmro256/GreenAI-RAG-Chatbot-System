@@ -1,7 +1,7 @@
-# Ecosphere AI: Ultra-Premium Multilingual RAG Chatbot for Sindh's Sustainable Climate Actions
+# Green AI: Ultra-Premium Multilingual RAG Chatbot for Sindh's Sustainable Climate Actions
 
 > [!IMPORTANT]
-> **Streamlit Cloud Status**: Ecosphere AI is fully optimized, compatible, and actively live on **Streamlit Cloud**! 
+> **Streamlit Cloud Status**: Green AI is fully optimized, compatible, and actively live on **Streamlit Cloud**! 
 >
 > 🚀 **Live URL**: [https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/](https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/)
 >

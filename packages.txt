@@ -1,9 +1,14 @@
 build-essential
+
 python3-dev
+
 gcc
+
 g++
+
 libopenblas-dev
+
 liblapack-dev
-libjpeg-dev
-zlib1g-dev
-libpng-dev
+
+libatlas-base-dev
+
