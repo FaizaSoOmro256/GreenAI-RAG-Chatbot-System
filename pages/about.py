@@ -26,7 +26,7 @@ def show_about():
         "english": {
             "description": "Learn about our mission and how we're helping communities in Sindh adapt to climate change.",
             "mission_title": "Our Mission",
-            "mission_text": "Ecosphere AI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.",
+            "mission_text": "Green AI aims to provide accessible, multilingual climate information and tools to help communities in Sindh understand, adapt to, and mitigate the impacts of climate change.",
             "features_title": "Key Features",
             "contact_title": "Contact Us",
             "feedback_title": "Feedback",
@@ -84,7 +84,7 @@ def show_about():
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
             ">
-                🤖 About Ecosphere AI
+                🤖 About Green AI
             </h1>
             <p style="
                 color: #455A64;
