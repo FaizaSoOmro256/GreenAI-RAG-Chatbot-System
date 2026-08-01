@@ -33,15 +33,6 @@ Green AI is a multilingual Retrieval-Augmented Generation (RAG) chatbot designed
 - [Acknowledgements](#-acknowledgements)
 - [Author](#-author)
 
-# 🚀 Live Demo
-
-### 🌐 Streamlit Application
-
-https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/
-
----
-
-
 # 📖 Overview
 
 Climate change has become one of the most significant challenges affecting communities worldwide. Access to reliable environmental information remains limited, particularly in regional languages.
@@ -52,6 +43,13 @@ The application is specifically designed to support users in Sindh by providing 
 
 Beyond conversational AI, Green AI integrates multiple sustainability-focused modules, including a carbon footprint calculator, weather monitoring dashboard, climate analytics, and water resource management tools.
 
+# 🚀 Live Demo
+
+### 🌐 Streamlit Application
+
+https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/
+
+---
 ---
 
 # ✨ Features
