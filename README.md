@@ -709,30 +709,54 @@ Special thanks to the open-source technologies that made this project possible.
 
 # 👩‍💻 Author
 
+
+
 **Faiza Soomro**
 
-AI & Machine Learning Enthusiast
 
-### GitHub
+
+Full Stack Web Developer & AI/ML Engineer
+
+
+
+Building scalable web applications and AI-powered solutions using Python, Machine Learning, Artificial Intelligence, and modern frontend technologies.
+
+
+
+GitHub:  
 
 https://github.com/FaizaSoOmro256
 
----
 
-## ⭐ Support
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+LinkedIn:  
 
-Your support helps improve the project and encourages future development.
+https://www.linkedin.com/in/faiza-shafi-muhammad-a1a92325b/
 
----
 
-## 📬 Contact
 
-For suggestions, collaborations, or feedback, feel free to connect through GitHub.
+
 
 ---
 
-## 🌍 Vision
 
-Green AI aims to make climate knowledge accessible through Artificial Intelligence by combining multilingual support, Retrieval-Augmented Generation, and interactive sustainability tools to empower communities, researchers, and policymakers in making informed environmental decisions.
+
+# ⭐ Show Your Support
+
+
+
+If you found this project useful, innovative, or helpful, please consider giving it a ⭐ star on GitHub.
+
+
+
+Your support motivates continuous improvements, new features, and the development of more open-source AI projects.
+
+
+
+⭐ Star this repository:
+
+https://github.com/FaizaSoOmro256/CodeAlpha_LanguageTranslationToolAI
+
+
+
+Thank you for your support! 🚀
