@@ -683,10 +683,11 @@ Green AI is designed with scalability in mind. Future enhancements include:
 - Allow organizations to upload their own climate knowledge bases.
 - Support collaborative research and knowledge sharing.
 
-# 📜 License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
+Copyright © 2026 Faiza Soomro
 ---
 
 # 🙏 Acknowledgements
