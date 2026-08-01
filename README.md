@@ -4,8 +4,8 @@
 > **Streamlit Cloud Status**: Green AI is fully optimized, compatible, and actively live on **Streamlit Cloud**! 
 >
 > 🚀 **Live URL**: [https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/](https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/)
->
-> [![Streamlit App](https://static.streamlit.io/badge-gradient.svg)](https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/)
+
+> [[Streamlit App](https://static.streamlit.io/badge-gradient.svg)](https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/)
 
 
 
