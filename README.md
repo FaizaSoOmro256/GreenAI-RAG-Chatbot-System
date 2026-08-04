@@ -50,8 +50,6 @@ Beyond conversational AI, Green AI integrates multiple sustainability-focused mo
 https://greenai-rag-chatbot-system-32xlcpdknofq7uasauq76v.streamlit.app/
 
 ---
----
-
 # ✨ Features
 
 ## 🤖 AI Chatbot
